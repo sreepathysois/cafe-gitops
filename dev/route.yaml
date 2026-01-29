@@ -1,0 +1,14 @@
+apiVersion: route.openshift.io/v1
+kind: Route
+metadata:
+  name: cafe-static
+  labels:
+    app: cafe-static
+spec:
+  to:
+    kind: Service
+    name: cafe-static
+  port:
+    targetPort: http
+  tls:
+    termination: edge
