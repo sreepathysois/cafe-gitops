@@ -5,7 +5,7 @@ metadata:
 spec:
   selector:
     app: cafe-static
-    version: blue   # 👈 START with BLUE
+    version: green   # 👈 START with BLUE
   ports:
   - port: 80
     targetPort: 8080
