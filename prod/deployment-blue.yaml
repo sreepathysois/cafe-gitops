@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: cafe-static
-        image: image-registry.openshift-image-registry.svc:5000/ci/cafe-static:v1
+        image: image-registry.openshift-image-registry.svc:5000/ci/cafe-static:latest
         ports:
         - containerPort: 8080
