@@ -17,7 +17,7 @@ spec:
       serviceAccountName: app-sa
       containers:
       - name: cafe-static
-        image: image-registry.openshift-image-registry.svc:5000/ci/cafe-static:latest
+        image: image-registry.openshift-image-registry.svc:5000/ci/cafe-static:v2
         ports:
         - containerPort: 8080
         resources:
